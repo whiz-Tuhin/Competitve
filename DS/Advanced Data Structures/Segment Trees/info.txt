@@ -1,0 +1,6 @@
+Informational Links
+
+http://codeforces.com/blog/entry/22616
+http://codeforces.com/blog/entry/15890
+http://codeforces.com/blog/entry/3327 -> mathematically explained
+http://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/
