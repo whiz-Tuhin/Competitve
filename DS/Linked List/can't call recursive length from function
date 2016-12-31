@@ -1,0 +1,265 @@
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+3
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+4
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+8
+  1.)recursive
+ 2.)iterative
+1
+the list doesnt exist..append some items
+
+the length of the list is:- 4
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+10
+enter the value for n
+3
+the list doesnt exist..append some items
+Segmentation fault: 11
+Tuhins-MacBook-Pro:Linked List Tuhin_Khare$ clear 
+
+Tuhins-MacBook-Pro:Linked List Tuhin_Khare$ cc nth_node.c 
+nth_node.c:169:40: warning: incompatible pointer types passing 'struct node *' to parameter of type 'NODE **' (aka 'struct node **'); take the address with & [-Wincompatible-pointer-types]
+    return  1 + count_length_recursive(current->link);
+                                       ^~~~~~~~~~~~~
+                                       &
+nth_node.c:157:35: note: passing argument to parameter 'head_ref' here
+int count_length_recursive(NODE** head_ref)
+                                  ^
+nth_node.c:290:85: warning: incompatible pointer types passing 'NODE *' (aka 'struct node *') to parameter of type 'NODE **' (aka 'struct node **'); take the address with & [-Wincompatible-pointer-types]
+                 printf("\nthe length of the list is:- %d\n",count_length_recursive(head));
+                                                                                    ^~~~
+                                                                                    &
+nth_node.c:157:35: note: passing argument to parameter 'head_ref' here
+int count_length_recursive(NODE** head_ref)
+                                  ^
+nth_node.c:303:46: warning: incompatible pointer types passing 'NODE *' (aka 'struct node *') to parameter of type 'NODE **' (aka 'struct node **'); take the address with & [-Wincompatible-pointer-types]
+            length  = count_length_recursive(head);
+                                             ^~~~
+                                             &
+nth_node.c:157:35: note: passing argument to parameter 'head_ref' here
+int count_length_recursive(NODE** head_ref)
+                                  ^
+3 warnings generated.
+Tuhins-MacBook-Pro:Linked List Tuhin_Khare$ cc nth_node.c 
+nth_node.c:290:85: warning: incompatible pointer types passing 'NODE *' (aka 'struct node *') to parameter of type 'NODE **' (aka 'struct node **'); take the address with & [-Wincompatible-pointer-types]
+                 printf("\nthe length of the list is:- %d\n",count_length_recursive(head));
+                                                                                    ^~~~
+                                                                                    &
+nth_node.c:157:35: note: passing argument to parameter 'head_ref' here
+int count_length_recursive(NODE** head_ref)
+                                  ^
+nth_node.c:303:46: warning: incompatible pointer types passing 'NODE *' (aka 'struct node *') to parameter of type 'NODE **' (aka 'struct node **'); take the address with & [-Wincompatible-pointer-types]
+            length  = count_length_recursive(head);
+                                             ^~~~
+                                             &
+nth_node.c:157:35: note: passing argument to parameter 'head_ref' here
+int count_length_recursive(NODE** head_ref)
+                                  ^
+2 warnings generated.
+Tuhins-MacBook-Pro:Linked List Tuhin_Khare$ cc nth_node.c 
+Tuhins-MacBook-Pro:Linked List Tuhin_Khare$ ./a.out
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+1
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+2
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+3
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+4
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+4
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+5
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+6
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+1
+enter the data you want to append at the end
+7
+
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+6
+The list is :- 
+1->2->3->4->4->5->6->7->
+
+choose amongst the following operations
+1.)append_end
+2.)append_start
+3.)append_after
+4.)delete_key
+5.)delete_pos
+6.)print_list
+7.)Exit Program
+8.)count_length
+9.)Print Middle Element
+10.)Nth_node
+10
+enter the value for n
+6
+the list doesnt exist..append some items
+Segmentation fault: 11
+Tuhins-MacBook-Pro:Linked List Tuhin_Khare$ 
