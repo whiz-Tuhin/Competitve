@@ -1,5 +1,4 @@
-Informational Links
-
+Informational Link
 http://codeforces.com/blog/entry/22616
 http://codeforces.com/blog/entry/15890
 http://codeforces.com/blog/entry/3327 -> mathematically explained
