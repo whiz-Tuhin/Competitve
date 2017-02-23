@@ -1,3 +1,5 @@
+//TODO := Math still to be worked out
+
 #include <iostream>
 #include <string>
 #include <math.h>
