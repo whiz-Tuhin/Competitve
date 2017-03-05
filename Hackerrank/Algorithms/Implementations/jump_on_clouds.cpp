@@ -1,33 +1,37 @@
 #include <iostream>
 #include <math.h>
-#include <cstdlib>
+#include <algorithm>
+#include <vector>
 
 using namespace std;
+int n;
+//always pass address of vector as a parameter
+int min_jmp(vector<int> &c,int i){
+    static int res;
 
-int main( ){
+    if(i+2 <= n && c[i+2] == 0 && i != n-1){
+        res++;
+        min_jmp(c,i+2);
+    }
+    else if (i+2 <= n && c[i+1] == 0){
+        res++;
+        min_jmp(c,i+1);
+    }
+    return res;
+
+}
+int main(){
 
 
-  int n,k;
-  cin>>n>>k;
+    cin>>n;
 
-  int* c;
-  c = (int*)malloc(sizeof(int)*n);
+    vector<int> c(n);
+    for(int i = 0;i < n;i++){
+                 cin>>c[i];
+    }
 
-  for(int i = 0;i < n;i++)
-               cin>>c[i];
-  int e = 100;
-  int i = 0;
-  while(1){
-        e--;
-        i = (i+k)%n;
-        if(c[i]){
-              e=e-2;
-        }
-        if(i == 0)
-            break;
-  }
-
-  cout<<e;
-
-  return 0;
+    int jmp = 0;
+    jmp = min_jmp(c,0);
+    cout<<jmp;
+    return 0;
 }
