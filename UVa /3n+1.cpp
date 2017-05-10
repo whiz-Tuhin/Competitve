@@ -1,7 +1,7 @@
 //Problem is based on the collatz conjecture
 // where you have a cyclic repition when every number is plugged into the function
 /*
-f(x) -> {
+f(n) -> {
               n/2     if n is even
 
               3*n+1   if n is odd
@@ -9,7 +9,7 @@ f(x) -> {
         }
 every number converges to 1 when plugged into the above recursive function.
 
-below is a brute force implementation, but a better solution would be to use caching 
+below is a brute force implementation, but a better solution would be to use caching
 */
 #include <iostream>
 #include <string>
