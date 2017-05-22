@@ -1,3 +1,11 @@
+//Things that i learnt
+/*
+    here in such question the major trick is the part where you need to figure out how to
+    move these pointers...as said in the article -> first you figure out the brute force method to do it
+    after you figure that out you see at each iteration how the loop works and then erplace the redundant iterations by
+    pointer manipulations
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -25,7 +33,7 @@ void segregate(vector<int> &A){
             else{
                     swap(A[m],A[h--]);
             }
-    }    
+    }
 }
 
 int main(){
