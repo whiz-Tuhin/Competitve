@@ -34,7 +34,7 @@ void print_vector(vector<Interval> &vec){
 vector<Interval> merge_overlap(vector<Interval> &arr){
         vector<Interval> res;
 
-    
+        cout<<"res size  = "<<res.size()<<endl;
         int n = arr.size();
 
         vector<int> flag(n,0);
